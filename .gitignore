@@ -1,0 +1,26 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment & DB
+.env
+db.sqlite3
+
+# Static files
+staticfiles/
+
+# Data (heavy files)
+archive/
+data/
+*.csv
+*.zip
+
+# ML models
+*.pkl
+*.joblib
+
+# Jupyter checkpoints only (not notebooks)
+.ipynb_checkpoints/
